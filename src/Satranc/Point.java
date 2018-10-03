@@ -1,4 +1,4 @@
-package Satranc.dsa;
+package Satranc;
 
 public class Point {
 		public int x;

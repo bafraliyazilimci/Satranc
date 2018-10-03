@@ -1,4 +1,4 @@
-package Satranc.dsa;
+package Satranc;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -49,25 +49,25 @@ public class Tahta extends JPanel {
 	public static Point p = new Point();
 	Kareler k = new Kareler();
 	public static String isimler[] = {
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-rook.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-knight.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-bishop.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-queen.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-king.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-bishop.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-knight.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-rook.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/black-pawn.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-rook.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-knight.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-bishop.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-queen.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-king.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-bishop.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-knight.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-rook.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/black-pawn.png",
 			// Kahverengi Taslar
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-pawn.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-rook.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-knight.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-bishop.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-queen.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-king.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-bishop.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/src/Resimler/white-knight.png",
-			"C:/Users/osman_000/Desktop/Satronc_Proje/bin/Resimler/white-rook.png" };
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-pawn.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-rook.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-knight.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-bishop.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-queen.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-king.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-bishop.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/src/Resimler/white-knight.png",
+			"C:/Users/osman_000/Desktop/Satronc_Proje/Satranc/bin/Resimler/white-rook.png" };
 
 
 	public static Icon ikonlar[] = { new ImageIcon((isimler[0])), new ImageIcon((isimler[1])),

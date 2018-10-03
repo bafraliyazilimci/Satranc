@@ -1,4 +1,4 @@
-package Satranc.dsa;
+package Satranc;
 
 import java.awt.Image;
 import javax.swing.Icon;
